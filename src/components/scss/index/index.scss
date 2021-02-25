@@ -329,7 +329,7 @@ body {
   font-size: 24px;
   text-align: center;
   color: #F5F5F5;
-  margin: 38px 0;
+  margin: 20px 0 50px 0;
   cursor: pointer;
 }
 .page5 form span{
@@ -520,7 +520,7 @@ body {
     font-size: 15px;
   }
   .banner2-top{
-    margin-top: 10px;
+    top:15%;
   }
   .b2-colors h1{
     font-size: 20px;
@@ -549,15 +549,23 @@ body {
     justify-content: space-around;
     flex-wrap: wrap-reverse;
   }
+  .b2colorsimages{
+    margin-top: 150px;
+  }
   .ca{
-    margin-top: 10%;
+    margin-top: 18%;
   }
   .b2angleimages{
     max-width: 350px;
+    margin-top: 50%;
   }
   .cam{
     max-width: 150px;
     height: 130px;
+  }
+  .ca3{
+    max-width: 150px;
+    height: 140px;
   }
   .page3{
     margin-top: 100px;
@@ -662,7 +670,7 @@ body {
     cursor: pointer;
     position:relative;
     bottom: 255px;
-  left:10px;
+    left:10px;
   }
   .page3{
     margin-top: 40px;
@@ -674,6 +682,9 @@ body {
     max-width:70px;
     height:70px;
     margin-bottom: 40px;
+  }
+  .page4{
+    top:150px;
   }
   .page4 p{
     margin-top: 5%;
@@ -692,7 +703,7 @@ body {
     left:150px;
   }
 }
-@media(max-width:470px){
+@media(max-width:484px){
   .b2-colors h1{
     font-size: 15px;
   }
@@ -845,5 +856,15 @@ body {
   }
   .page4 p{
     font-size: 15px;
+  }
+  .b2colorsimages{
+    margin-top:200px;
+  }
+  .b2angleimages{
+    margin-top:200px;
+
+  }
+  .pageback p{
+    font-size: 10px;
   }
 }
